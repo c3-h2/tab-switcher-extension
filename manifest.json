@@ -1,0 +1,13 @@
+{
+  "name": "Random Tab Switcher",
+  "description": "Açık sekmeler arasında 30s - 3dk arasında rastgele geçiş yapar.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
